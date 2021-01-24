@@ -172,6 +172,10 @@ main .section3 .imgbox{
     position:relative;
     overflow: hidden;
 }
+main .section3 .imgbox img{
+    width: 100%;
+    height: 100%;
+}
 main .section3 .imgbox button {
     width: 100%;
     height: 100%;
