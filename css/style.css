@@ -432,30 +432,14 @@ footer p{
     }
 }
 @media (max-width:575px){
-    main .carousel-caption{
-        max-width: 105px;
+    .carousel{
+        height: 200px;
     }
-    main .carousel-caption .btn-group .btn{
-        width: 40px;
-        height: 12px;
-        background: #1f1f1f;
-        border-radius:0;
-        color:white;
-        font-size: 4px;
-        padding:1px 2px;
+    .carousel-inner img{
+        height: 200px;
     }
-    main .carousel-caption h5{
-        
-        font-size: 15px;
-        margin: 0;
-        
-    }
-    main .carousel-caption p{
-        color:#eee6e4;
-        font-size: 4px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin: 0;
+    .carousel-item{
+        height: 200px;
     }
 }
 
